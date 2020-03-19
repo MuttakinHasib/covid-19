@@ -2,7 +2,7 @@ const covid = new COVID();
 const ui = new UI();
 
 document.addEventListener("DOMContentLoaded", corona);
-setInterval(corona, 10000);
+setInterval(corona, 5000);
 function corona(results) {
   covid
     .corona()
