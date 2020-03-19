@@ -1,0 +1,49 @@
+$color-light-blue: rgb(112, 111, 211);
+$color-light-red: rgb(255, 107, 107);
+$color-light-green: rgb(29, 209, 161);
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+header {
+    h1 {
+        color: #f56;
+        font-family: 'Rye', cursive;
+    }
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmed {
+    border-top: 5px solid $color-light-blue;
+
+    p {
+        color: $color-light-blue;
+    }
+}
+
+.deaths {
+    border-top: 5px solid $color-light-red;
+
+    p {
+        color: $color-light-red;
+    }
+}
+
+#global{
+    p{
+        font-size: 25px;
+        
+    }
+}
+
+.recovered {
+    border-top: 5px solid $color-light-green;
+
+    p {
+        color: $color-light-green;
+    }
+}

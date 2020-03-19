@@ -1,0 +1,42 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  color: #f56;
+  font-family: 'Rye', cursive;
+}
+
+.confirmed {
+  border-top: 5px solid #706fd3;
+}
+
+.confirmed p {
+  color: #706fd3;
+}
+
+.deaths {
+  border-top: 5px solid #ff6b6b;
+}
+
+.deaths p {
+  color: #ff6b6b;
+}
+
+#global p {
+  font-size: 25px;
+}
+
+.recovered {
+  border-top: 5px solid #1dd1a1;
+}
+
+.recovered p {
+  color: #1dd1a1;
+}
+/*# sourceMappingURL=style.css.map */
