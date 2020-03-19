@@ -11,8 +11,7 @@ class COVID {
     const global = await res.json();
     // const country = await resCountry.json();
     return {
-      global,
-      country
+      global
     };
   }
 }
