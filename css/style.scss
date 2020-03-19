@@ -25,6 +25,14 @@ header {
     }
 }
 
+.todayConfirmed {
+    border-top: 5px solid #000;
+
+    p {
+        color: #000;
+    }
+}
+
 .deaths {
     border-top: 5px solid $color-light-red;
 
@@ -33,10 +41,11 @@ header {
     }
 }
 
-#global{
-    p{
+#global,
+#local-country {
+    p {
         font-size: 25px;
-        
+
     }
 }
 
@@ -46,4 +55,8 @@ header {
     p {
         color: $color-light-green;
     }
+}
+
+.heart{
+    color: #f36;
 }

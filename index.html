@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COVID-19 corona</title>
     <!-- <script src="https://cdnjs.com/libraries/Chart.js"></script> -->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Rye|Ubuntu:300,400,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -51,11 +51,31 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-4">
+            <div class="mt-5">
+                <div class="row justify-content-between align-items-center p-3">
+                    <h3>Country: <span id="countryName"></span></h3>
+                    <div class="form-row">
+                        <label for="country" class="mb-1"><small>Select a country</small></label>
+                        <select id="country" class="custom-select">
+                            <option selected value="Bangladesh">Bangladesh</option>
+                            <option value="India">India</option>
+                            <option value="us">US</option>
+                            <option value="China">China</option>
+                        </select>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="local-country">
 
             </div>
         </div>
     </main>
+    <footer class="mt-5">
+        <div class="container">
+            <p class="lead text-center p-4">Designed & Developed by <i class="fas heart fa-heart"></i> <a href="https://github.com/MuttakinHasib/">Hasib</a></p>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">

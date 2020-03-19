@@ -20,6 +20,14 @@ header h1 {
   color: #706fd3;
 }
 
+.todayConfirmed {
+  border-top: 5px solid #000;
+}
+
+.todayConfirmed p {
+  color: #000;
+}
+
 .deaths {
   border-top: 5px solid #ff6b6b;
 }
@@ -28,7 +36,8 @@ header h1 {
   color: #ff6b6b;
 }
 
-#global p {
+#global p,
+#local-country p {
   font-size: 25px;
 }
 
@@ -38,5 +47,9 @@ header h1 {
 
 .recovered p {
   color: #1dd1a1;
+}
+
+.heart {
+  color: #f36;
 }
 /*# sourceMappingURL=style.css.map */
