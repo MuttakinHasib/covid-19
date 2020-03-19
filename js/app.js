@@ -2,7 +2,6 @@ const covid = new COVID();
 const ui = new UI();
 
 document.addEventListener("DOMContentLoaded", corona);
-setInterval(corona, 5000);
 function corona(results) {
   covid
     .corona()
@@ -11,6 +10,7 @@ function corona(results) {
     })
     .catch(err => console.log(err));
 }
+setInterval(corona, 5000);
 
 // const graph = document.getElementById("graph").getContext("2d");
 // let graph = new Chart(graph, {
@@ -25,4 +25,3 @@ function corona(results) {
 //     ]
 //   }
 // });
-
