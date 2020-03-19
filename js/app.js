@@ -11,17 +11,3 @@ function corona(results) {
     .catch(err => console.log(err));
 }
 setInterval(corona, 5000);
-
-// const graph = document.getElementById("graph").getContext("2d");
-// let graph = new Chart(graph, {
-//   type: "doughnut",
-//   data: {
-//     labels: ["Confirmed", "Deaths", "Recovered"],
-//     datasets: [
-//       {
-//         label: "COVID",
-//         data: [10, 20, 33]
-//       }
-//     ]
-//   }
-// });
