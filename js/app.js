@@ -19,6 +19,14 @@ function corona(results) {
       ui.coronaGlobal(result.global);
       ui.coronaCountry(result.country);
     })
-    .catch(err => console.log(err));
+    .catch(err => {
+      console.log(err);
+      if (err.name === "SyntaxError") {
+        ui.showAlert(
+          "Something went Wrong !!! Please Select Another Country",
+          "alert alert-danger"
+        );
+      }
+    });
 }
 setInterval(corona, 5000);

@@ -4,7 +4,7 @@ class UI {
     this.globalDeaths = document.getElementById("deaths");
     this.globalRecovered = document.getElementById("recovered");
     this.localCountry = document.getElementById("local-country");
-    this.countryName = document.getElementById('countryName');
+    this.countryName = document.getElementById("countryName");
     this.globalGraph = document.getElementById("myChart").getContext("2d");
   }
 
@@ -96,5 +96,23 @@ class UI {
     //   // Configuration options go here
     //   options: {}
     // });
+  }
+  showAlert(message, className) {
+    this.clearAlert();
+    const div = document.createElement("div");
+    div.className = className;
+    div.appendChild(document.createTextNode(message));
+    const container = document.querySelector(".ui_container");
+    const localCountryArea = document.querySelector("#local-country");
+    container.insertBefore(div, localCountryArea);
+
+    setTimeout(() => this.clearAlert(), 3000);
+  }
+
+  clearAlert() {
+    const currentAlert = document.querySelector(".alert");
+    if (currentAlert) {
+      currentAlert.remove();
+    }
   }
 }
