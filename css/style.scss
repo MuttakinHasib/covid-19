@@ -18,7 +18,8 @@ header {
 }
 
 .confirmed {
-    border-right: 8px solid $color-light-blue;
+    border: 8px solid $color-light-blue;
+    padding: 25px !important;
 
     p {
         color: $color-light-blue;
@@ -26,7 +27,8 @@ header {
 }
 
 .todayConfirmed {
-    border-right: 8px solid #000;
+    border: 8px solid #000;
+    padding: 25px !important;
 
     p {
         color: #000;
@@ -34,31 +36,38 @@ header {
 }
 
 .deaths {
-    border-right: 8px solid #f36;
+    border: 8px solid #f36;
+    padding: 25px !important;
 
     p {
         color: #f36;
     }
 }
+
 .t-cases {
-    border: 5px solid #1a1053;
+    border: 8px double #1a1053;
+    padding: 25px !important;
 
     p {
         color: #1a1053;
     }
 }
+
 .t-deaths {
-    border: 5px solid #fa6400;
+    border: 8px double #fa6400;
+    padding: 25px !important;
 
     p {
         color: #fa6400;
     }
 }
+
 .critical {
-    border: 5px solid red;
+    border: 8px double rgb(255, 8, 8);
+    padding: 25px !important;
 
     p {
-        color: red;
+        color: #f33;
     }
 }
 
@@ -66,12 +75,12 @@ header {
 #local-country {
     p {
         font-size: 25px;
-
     }
 }
 
 .recovered {
-    border-right: 8px solid $color-light-green;
+    border: 8px solid $color-light-green;
+    padding: 25px !important;
 
     p {
         color: $color-light-green;

@@ -13,7 +13,8 @@ header h1 {
 }
 
 .confirmed {
-  border-right: 8px solid #706fd3;
+  border: 8px solid #706fd3;
+  padding: 25px !important;
 }
 
 .confirmed p {
@@ -21,7 +22,8 @@ header h1 {
 }
 
 .todayConfirmed {
-  border-right: 8px solid #000;
+  border: 8px solid #000;
+  padding: 25px !important;
 }
 
 .todayConfirmed p {
@@ -29,7 +31,8 @@ header h1 {
 }
 
 .deaths {
-  border-right: 8px solid #f36;
+  border: 8px solid #f36;
+  padding: 25px !important;
 }
 
 .deaths p {
@@ -37,7 +40,8 @@ header h1 {
 }
 
 .t-cases {
-  border: 5px solid #1a1053;
+  border: 8px double #1a1053;
+  padding: 25px !important;
 }
 
 .t-cases p {
@@ -45,7 +49,8 @@ header h1 {
 }
 
 .t-deaths {
-  border: 5px solid #fa6400;
+  border: 8px double #fa6400;
+  padding: 25px !important;
 }
 
 .t-deaths p {
@@ -53,11 +58,12 @@ header h1 {
 }
 
 .critical {
-  border: 5px solid red;
+  border: 8px double #ff0808;
+  padding: 25px !important;
 }
 
 .critical p {
-  color: red;
+  color: #f33;
 }
 
 #global p,
@@ -66,7 +72,8 @@ header h1 {
 }
 
 .recovered {
-  border-right: 8px solid #1dd1a1;
+  border: 8px solid #1dd1a1;
+  padding: 25px !important;
 }
 
 .recovered p {
