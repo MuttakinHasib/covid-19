@@ -13,7 +13,7 @@ header h1 {
 }
 
 .confirmed {
-  border-top: 5px solid #706fd3;
+  border-right: 8px solid #706fd3;
 }
 
 .confirmed p {
@@ -21,7 +21,7 @@ header h1 {
 }
 
 .todayConfirmed {
-  border-top: 5px solid #000;
+  border-right: 8px solid #000;
 }
 
 .todayConfirmed p {
@@ -29,11 +29,35 @@ header h1 {
 }
 
 .deaths {
-  border-top: 5px solid #ff6b6b;
+  border-right: 8px solid #f36;
 }
 
 .deaths p {
-  color: #ff6b6b;
+  color: #f36;
+}
+
+.t-cases {
+  border: 5px solid #1a1053;
+}
+
+.t-cases p {
+  color: #1a1053;
+}
+
+.t-deaths {
+  border: 5px solid #fa6400;
+}
+
+.t-deaths p {
+  color: #fa6400;
+}
+
+.critical {
+  border: 5px solid red;
+}
+
+.critical p {
+  color: red;
 }
 
 #global p,
@@ -42,7 +66,7 @@ header h1 {
 }
 
 .recovered {
-  border-top: 5px solid #1dd1a1;
+  border-right: 8px solid #1dd1a1;
 }
 
 .recovered p {

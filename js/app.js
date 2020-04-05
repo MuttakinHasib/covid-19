@@ -21,7 +21,7 @@ function corona(results) {
     })
     .catch(err => {
       console.log(err);
-      if (err.name === "SyntaxError") {
+      if (err.name === "SyntaxError" || err.name === "TypeError") {
         ui.showAlert(
           "Something went Wrong !!! Please Select Another Country",
           "alert alert-danger"

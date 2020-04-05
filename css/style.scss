@@ -18,7 +18,7 @@ header {
 }
 
 .confirmed {
-    border-top: 5px solid $color-light-blue;
+    border-right: 8px solid $color-light-blue;
 
     p {
         color: $color-light-blue;
@@ -26,7 +26,7 @@ header {
 }
 
 .todayConfirmed {
-    border-top: 5px solid #000;
+    border-right: 8px solid #000;
 
     p {
         color: #000;
@@ -34,10 +34,31 @@ header {
 }
 
 .deaths {
-    border-top: 5px solid $color-light-red;
+    border-right: 8px solid #f36;
 
     p {
-        color: $color-light-red;
+        color: #f36;
+    }
+}
+.t-cases {
+    border: 5px solid #1a1053;
+
+    p {
+        color: #1a1053;
+    }
+}
+.t-deaths {
+    border: 5px solid #fa6400;
+
+    p {
+        color: #fa6400;
+    }
+}
+.critical {
+    border: 5px solid red;
+
+    p {
+        color: red;
     }
 }
 
@@ -50,13 +71,13 @@ header {
 }
 
 .recovered {
-    border-top: 5px solid $color-light-green;
+    border-right: 8px solid $color-light-green;
 
     p {
         color: $color-light-green;
     }
 }
 
-.heart{
+.heart {
     color: #f36;
 }
